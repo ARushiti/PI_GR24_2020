@@ -80,7 +80,7 @@
                                         <ul id="navigation">                                                                                                                                     
                                             <li><a href="indexi.php">Home</a></li>
                                             <li><a href="aboutus.php">About US</a></li>
-                                            <li><a href="#">Activities</a>
+                                            <li><a href="blog.html">Blog</a>
                                                 <ul class="submenu">
                                                     <li><a href="elements.html">Best of</a></li>
                                                 </ul>
