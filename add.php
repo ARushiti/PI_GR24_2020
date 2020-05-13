@@ -69,7 +69,7 @@
 	<section class="container grey-text">
 		<h4 class="center">Where would you like to go?</h4>
 		<h6 class="right"> write the place you want to travel...</h6>
-		<form class="white" action="add.php" method="POST">
+		<form class="white" action="<?php echo $_SERVER['PHP_SELF'] ?>" method="POST">
 			<label>Your Email</label>
 			<input type="text" name="email">
 			<label>Country</label>
