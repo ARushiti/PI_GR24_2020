@@ -9,8 +9,6 @@
 	echo $_SERVER['SCRIPT_FILENAME'] . '<br />';
 	echo $_SERVER['PHP_SELF'] . '<br />';
 
-	// $_COOKIE, $_SESSION
-
 
 ?>
 
