@@ -1,5 +1,19 @@
 <?php 
+  include('config/db_connect.php');
+//write query for all trips
+$sql = 'SELECT country, cities, id FROM trips ORDER BY created_at';
 
+// get the result set (set of rows)
+    $result = mysqli_query($conn, $sql);
+
+    // fetch the resulting rows as an array
+    $trips = mysqli_fetch_all($result, MYSQLI_ASSOC);
+
+    // free the $result from memory (good practise)
+    mysqli_free_result($result);
+
+    // close connection
+    mysqli_close($conn);
 
 
 ?>
@@ -111,6 +125,62 @@
             </div>
         </div>
         <!-- slider Area End-->
+	    <title>Latest Tours</title>
+	    <style type="text/css">
+      .brand{
+        background: #014b85 !important;
+      }
+    .brand-text{
+        color: #014b85!important;
+    }
+    form{
+        max-width: 460px;
+        margin: 20px auto;
+        padding: 20px;
+    }
+    .parisi{
+        width: 400px;
+        margin: 10px;
+        display: block;
+        position: relative;
+    }
+  </style>
+	    <h4 class="center grey-text">Latest Trips!</h4>
+
+    <div class="container">
+        <div class="row">
+
+             <?php foreach($trips as $trip): ?>
+
+                <div class="col s6 m4">
+                    <div class="card z-depth-0">
+                        <img src="assets/img/hero/Paris.jpg" class="parisi"
+                        <div class="card-content center">
+                            <h6><?php echo htmlspecialchars($trip['country']); ?></h6>
+                            <ul class="grey-text">
+                                <?php foreach(explode(',', $trip['cities']) as $cit): ?>
+                                    <li><?php echo htmlspecialchars($cit); ?></li>
+                                <?php endforeach; ?>
+                            </ul>
+                        </div>
+                        <div class="card-action center">
+                            <a class="brand-text" href="detalis.php?id=<?php echo $trip['id']?>">more info</a>
+                        </div>
+                    </div>
+                </div>
+
+            <?php endforeach; ?>
+            <body class="grey lighten-4">
+    <nav class="white z-depth-0">
+    <div class="container">
+      <ul id="nav-mobile" class="right hide-on-small-and-down">
+        <li><a href="add.php" class="btn border-btn">Add a Trip</a></li>
+      </ul>
+    </div>
+  </nav>
+            
+        </div>
+    </div>
         <!-- Our Services Start -->
         <div class="our-services servic-padding">
             <div class="container">
