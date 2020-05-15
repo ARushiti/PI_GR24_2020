@@ -89,7 +89,7 @@
                                                     <li><a href="elements.html">Best of</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="contact.html">Contact Us</a></li>
+                                            <li><a href="logini1.php">Log In</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -163,7 +163,6 @@
                                         <span class="checkmark"></span>
                                     </label>
                                 </div>
-                                <!--<a href="#" class="btn border-btn">More</a>-->
                             </div>
                         </div>
                     </div>
@@ -219,24 +218,6 @@
             </div>
         </div>
         <!-- Our Services End -->
-        <!-- Video Start Arera
-        <div class="video-area video-bg pt-200 pb-200"  data-background="assets/img/service/video-bg.jpg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="video-caption text-center">
-                            <div class="video-icon">
-                                <a class="popup-video" href="https://www.youtube.com/watch?v=1aP-TXUpNoU" tabindex="0"><i class="fas fa-play"></i></a>
-                            </div>
-                            <p class="pera1">Love where you're going in the perfect time</p>
-                            <p class="pera2">Tripo is a World Leading Online</p>
-                            <p class="pera3"> Tour Booking Platform</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        -->
         <!-- Testimonial Start -->
         <div class="testimonial-area testimonial-padding">
             <div class="container ">
@@ -257,7 +238,7 @@
                                             <img src="assets/img/testmonial/Homepage_testi.png" alt="">
                                         </div>
                                         <div class="founder-text founder-text2">
-                                            <span>Jessya Inn</span>
+                                            <span>Rushiti</span>
                                             <p>Co Founder</p>
                                         </div>
                                     </div>
@@ -281,7 +262,7 @@
                          <div class="single-footer-caption mb-30">
                               <!-- logo -->
                              <div class="footer-logo">
-                                 <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
+                                 <a href="indexi.php"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
                              </div>
                              <div class="footer-tittle">
                                  <div class="footer-pera">
