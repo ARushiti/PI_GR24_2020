@@ -97,16 +97,5 @@ if (isset($_POST['login_user'])) {
   }
 }
 
-
-
-
-//<?php
-//$user_input = "<script>alert('Your site !');</script>";
-//echo "<h4>My Commenting System</h4>";
-//echo $user_input;       -------------------------------------------> qiky osht veq ni rast i thjeshte qe nese qet alert 
-                          // funksionit strip largohet alerti edhe del i shtypun qajo qka u kon e shkrume ne alert
-//$user_input = "<script>alert('Your site !');</script>";
-//echo strip_tags($user_input);---------------------> kjo perdoret per me rujt faqen prej atakev
-
 ?>
 
