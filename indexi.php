@@ -72,7 +72,7 @@ $sql = 'SELECT country, cities, id FROM trips ORDER BY created_at';
                             <!-- Logo -->
                             <div class="col-xl-2 col-lg-2 col-md-1">
                                 <div class="logo">
-                                  <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                                  <a href="indexi.php"><img src="assets/img/logo/logo.png" alt=""></a>
                                 </div>
                             </div>
                             <div class="col-xl-10 col-lg-10 col-md-10">
@@ -87,7 +87,7 @@ $sql = 'SELECT country, cities, id FROM trips ORDER BY created_at';
                                                     <li><a href="elements.html">Best of</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="contact.html">Contact Us</a></li>
+                                            <li><a href="login1.php">Log In</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -315,7 +315,7 @@ $sql = 'SELECT country, cities, id FROM trips ORDER BY created_at';
                                             <img src="assets/img/testmonial/Homepage_testi.png" alt="">
                                         </div>
                                         <div class="founder-text">
-                                            <span>Jessya Inn</span>
+                                            <span>Rushiti</span>
                                             <p>Co Founder</p>
                                         </div>
                                     </div>
@@ -335,7 +335,7 @@ $sql = 'SELECT country, cities, id FROM trips ORDER BY created_at';
                                             <img src="assets/img/testmonial/Homepage_testi.png" alt="">
                                         </div>
                                         <div class="founder-text">
-                                            <span>Albina Rushiti</span>
+                                            <span>Rushiti</span>
                                             <p>Co Founder</p>
                                         </div>
                                     </div>
