@@ -132,8 +132,9 @@ include('server.php')
     
     <!-- login form -->
 	 
-  <form method="post" action="login1.php">
+ <form method="post" action="login1.php">
   	<?php include('errors.php'); ?>
+    <hr>
   	<div class="input-group">
   		<label>Username</label>
   		<input type="text" name="username" >
@@ -148,12 +149,12 @@ include('server.php')
   		<button type="submit" class="button button-contactForm boxed-btn" name="login_user">Log in </button>
   	</div>
 	  <div class="fb-login-button"  data-max-rows="1" data-size="small" data-button-type="login_with" data-show-faces="true" data-auto-logout-link="false" data-use-continue-as="true"></div>
-
+<hr>
 
   	<p>
-      Not yet a member? <a href="register.php"> Sign up </a>
+      Not yet a member? <a href="register.php" class="btn border-btn"> Sign up </a>
     </p>
-	 
+
 	</form>
 	
 	<div id="fb-root"></div>
