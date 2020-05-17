@@ -151,9 +151,10 @@
   	<div class="form-group mt-3">
   	  <button type="submit" class="button button-contactForm boxed-btn" name="reg_user">Register</button>
   	</div>
+  	<hr>
   	<p>
   		Already a member? 
-      <a href="login1.php">Sign in</a>
+      <a href="login1.php" class="btn border-btn">Sign in</a>
   	</p>
   </form>
   <!-- register end -->
