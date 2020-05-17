@@ -74,7 +74,7 @@
                             <!-- Logo -->
                             <div class="col-xl-2 col-lg-2 col-md-1">
                                 <div class="logo">
-                                  <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                                  <a href="indexi.php"><img src="assets/img/logo/logo.png" alt=""></a>
                                 </div>
                             </div>
                             <div class="col-xl-10 col-lg-10 col-md-10">
@@ -84,7 +84,7 @@
                                         <ul id="navigation">                                                                                                                                     
                                            <li><a href="indexi.php">Home</a></li>
                                             <li><a href="aboutus.php">About US</a></li>
-                                            <li><a href="blog.html">Blog</a>
+                                            <li><a href="blog.php">Blog</a>
                                                 <ul class="submenu">
                                                     <li><a href="elements.html">Best of</a></li>
                                                 </ul>
