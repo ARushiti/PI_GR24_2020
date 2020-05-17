@@ -1,0 +1,32 @@
+.firsttable{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    margin: auto;
+}
+.firsttable td, .firsttable th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.firsttable tr:nth-child(even){background-color: #f2f2f2;}
+
+.firsttable tr:hover {background-color: #ddd;}
+
+.firsttable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #014b85;
+}
+.secondtable, td, th {
+    border: 1px solid black;
+  }
+  
+.secondtable {
+    border-collapse: collapse;
+    width: 20%;
+    margin-left:25%;
+}
+
+.secondtable th {
+    text-align: left;
+  }
