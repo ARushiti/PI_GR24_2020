@@ -61,9 +61,9 @@
     <?php  if (isset($_SESSION['username'])) : ?>
   <p align="center">Welcome <strong><?php echo ucfirst(strtolower($_SESSION['username'])); ?></strong></p>
   
-  <p style="align:center;" align="center"> <strong><a href="index.php" style="color: blue; text-decoration:none;">Go to Home Page</a></strong> </p>
+  <p style="align:center;" align="center"> <strong><a href="indexi.php" style="color: #014b85; text-decoration:none;">Go to Home Page</a></strong> </p>
   </br>
-  <p style="align:center;" align="center"> <a href="indexregister.php?logout='1'" style="color: red;">Logout</a> </p>
+  <p style="align:center;" align="center"> <a href="indexregister.php?logout='1'" style="color: #014b85;">Logout</a> </p>
   
 
     <?php endif ?>
